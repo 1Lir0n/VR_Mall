@@ -9,7 +9,7 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private bool openTrigger = false;
     [SerializeField] private bool closeTrigger = false;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter (Collider other)
     {
         if (other.CompareTag("Player"))
         {
